@@ -83,3 +83,9 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.character-card.selected {
+    border-color: #007bff; /* A blue border */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* A glowing shadow */
+    transform: scale(1.05); /* Slightly enlarge the card */
+}
