@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 1em;
+}
+
+#character-selection {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.character-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.character-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1em;
+    width: 150px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.character-card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.5em;
+}
+
+.character-card h3 {
+    margin: 0.5em 0;
+}
+
+#fight-arena {
+    text-align: center;
+}
+
+.arena {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end; /* Align fighters to the bottom */
+    height: 300px; /* Adjust as needed */
+    background-color: #ddd; /* Placeholder background */
+    border: 2px solid #333;
+    margin-top: 1em;
+    padding: 1em;
+}
+
+#player1, #player2 {
+    width: 100px; /* Placeholder width */
+    height: 150px; /* Placeholder height */
+    background-color: #aaa; /* Placeholder color */
+    border: 1px solid #666;
+}
+
+footer {
+    text-align: center;
+    padding: 1em 0;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
